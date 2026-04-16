@@ -1,0 +1,85 @@
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
+1,PA00,POWER_FAULT,GPIO,Digital,In,n/a,No,No,NORMAL
+2,PA01,LDO_PG,GPIO,Digital,In,n/a,No,No,NORMAL
+3,PC00,BUCK1V1_PG,GPIO,Digital,In,n/a,No,No,NORMAL
+4,PC01,TCON_GRB,GPIO,Digital,Out,Low,,,NORMAL
+5,PC02,,Available,,,,,,NORMAL
+6,PC03,TCON_BIST,GPIO,Digital,Out,Low,,,NORMAL
+7,PA02,,Available,,,,,,NORMAL
+8,PA03,,Available,,,,,,NORMAL
+9,PB04,,Available,,,,,,NORMAL
+10,PB05,,Available,,,,,,NORMAL
+13,PB06,,Available,,,,,,NORMAL
+14,PB07,,Available,,,,,,NORMAL
+15,PB08,,Available,,,,,,NORMAL
+16,PB09,,Available,,,,,,NORMAL
+17,PA04,,Available,,,,,,NORMAL
+18,PA05,ILM_Analog,ADC0_AIN5,Analog,High Impedance,n/a,,,NORMAL
+19,PA06,TCON_VDD,GPIO,Digital,Out,High,,,NORMAL
+20,PA07,IMON_Analog,ADC0_AIN7,Analog,High Impedance,n/a,,,NORMAL
+21,PC05,,Available,,,,,,NORMAL
+22,PC06,BL_VDD1,GPIO,Digital,Out,High,,,NORMAL
+23,PC07,LR_Check,GPIO,Digital,In,n/a,No,No,NORMAL
+26,PA08,LED1,GPIO,Digital,Out,Low,,,NORMAL
+27,PA09,LED2,GPIO,Digital,Out,Low,,,NORMAL
+28,PA10,LED3,GPIO,Digital,Out,Low,,,NORMAL
+29,PA11,LED4,GPIO,Digital,Out,Low,,,NORMAL
+30,PB10,,Available,,,,,,NORMAL
+31,PB11,,Available,,,,,,NORMAL
+32,PB12,,Available,,,,,,NORMAL
+33,PB13,,Available,,,,,,NORMAL
+34,PB14,FAULT,GPIO,Digital,In,n/a,No,No,NORMAL
+35,PB15,,Available,,,,,,NORMAL
+38,PC08,,Available,,,,,,NORMAL
+39,PC09,TI69601_CLK,GPIO,Digital,Out,Low,,,NORMAL
+40,PC10,,Available,,,,,,NORMAL
+41,PC11,TI69601_SIN,GPIO,Digital,Out,Low,,,NORMAL
+42,PC12,,Available,,,,,,NORMAL
+43,PC13,,Available,,,,,,NORMAL
+44,PC14,,Available,,,,,,NORMAL
+45,PC15,,Available,,,,,,NORMAL
+46,PA12,UART1_TX,SERCOM2_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+47,PA13,UART1_RX,SERCOM2_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+48,PA14,,Available,,,,,,NORMAL
+49,PA15,,Available,,,,,,NORMAL
+52,PA16,,Available,,,,,,NORMAL
+53,PA17,,Available,,,,,,NORMAL
+54,PA18,,Available,,,,,,NORMAL
+55,PA19,,Available,,,,,,NORMAL
+56,PC16,TCON_CS,GPIO,Digital,Out,Low,,,NORMAL
+57,PC17,TCON_CLK,GPIO,Digital,Out,Low,,,NORMAL
+58,PC18,TCON_MISO,GPIO,Digital,In,n/a,No,No,NORMAL
+59,PC19,TCON_MOSI,GPIO,Digital,Out,Low,,,NORMAL
+60,PC20,TP_GRB,GPIO,Digital,Out,Low,,,NORMAL
+61,PC21,,Available,,,,,,NORMAL
+64,PB16,SDA,SERCOM5_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+65,PB17,SCL,SERCOM5_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+66,PB18,,Available,,,,,,NORMAL
+67,PB19,,Available,,,,,,NORMAL
+68,PB20,ALS_SCL,GPIO,Digital,In/Out,High,,,NORMAL
+69,PB21,ALS_SDA,GPIO,Digital,In/Out,High,,,NORMAL
+70,PA20,BTM1,GPIO,Digital,In,n/a,No,No,NORMAL
+71,PA21,BTM2,GPIO,Digital,In,n/a,No,No,NORMAL
+72,PA22,BTM3,GPIO,Digital,In,n/a,No,No,NORMAL
+73,PA23,BTM4,GPIO,Digital,In,n/a,No,No,NORMAL
+74,PA24,,Available,,,,,,NORMAL
+75,PA25,,Available,,,,,,NORMAL
+78,PB22,,Available,,,,,,NORMAL
+79,PB23,,Available,,,,,,NORMAL
+80,PB24,MOSI,GPIO,Digital,Out,Low,,,NORMAL
+81,PB25,CLK,GPIO,Digital,Out,Low,,,NORMAL
+82,PC24,FLASH_CS,GPIO,Digital,Out,High,,,NORMAL
+83,PC25,MISO,GPIO,Digital,In,n/a,No,No,NORMAL
+84,PC26,DD_ERROPB,GPIO,Digital,In,n/a,No,No,NORMAL
+85,PC27,RESX,GPIO,Digital,Out,Low,,,NORMAL
+86,PC28,STBYB,GPIO,Digital,Out,Low,,,NORMAL
+87,PA27,,Available,,,,,,NORMAL
+89,PA28,AUX,GPIO,Digital,In,n/a,No,No,NORMAL
+93,PA30,,Available,,,,,,NORMAL
+94,PA31,,Available,,,,,,NORMAL
+95,PB30,LORA_TX,SERCOM1_PAD0,Digital,High Impedance,n/a,No,No,NORMAL
+96,PB31,LORA_RX,SERCOM1_PAD1,Digital,High Impedance,n/a,No,No,NORMAL
+97,PB00,MD0,GPIO,Digital,Out,High,,,NORMAL
+98,PB01,MD1,GPIO,Digital,Out,Low,,,NORMAL
+99,PB02,BL_VDD2,GPIO,Digital,Out,High,,,NORMAL
+100,PB03,,Available,,,,,,NORMAL

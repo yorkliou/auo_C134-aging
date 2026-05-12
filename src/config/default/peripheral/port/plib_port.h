@@ -216,14 +216,14 @@
 #define UART1_RX_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 13U)) & 0x01U)
 #define UART1_RX_PIN                  PORT_PIN_PA13
 
-/*** Macros for TCON_CS pin ***/
-#define TCON_CS_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 16U))
-#define TCON_CS_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 16U))
-#define TCON_CS_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 16U))
-#define TCON_CS_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 16U))
-#define TCON_CS_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 16U))
-#define TCON_CS_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 16U)) & 0x01U)
-#define TCON_CS_PIN                  PORT_PIN_PC16
+/*** Macros for TCON_MOSI pin ***/
+#define TCON_MOSI_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 16U))
+#define TCON_MOSI_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 16U))
+#define TCON_MOSI_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 16U))
+#define TCON_MOSI_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 16U))
+#define TCON_MOSI_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 16U))
+#define TCON_MOSI_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 16U)) & 0x01U)
+#define TCON_MOSI_PIN                  PORT_PIN_PC16
 
 /*** Macros for TCON_CLK pin ***/
 #define TCON_CLK_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 17U))
@@ -234,23 +234,23 @@
 #define TCON_CLK_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 17U)) & 0x01U)
 #define TCON_CLK_PIN                  PORT_PIN_PC17
 
-/*** Macros for TCON_MISO pin ***/
-#define TCON_MISO_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 18U))
-#define TCON_MISO_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 18U))
-#define TCON_MISO_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 18U))
-#define TCON_MISO_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 18U))
-#define TCON_MISO_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 18U))
-#define TCON_MISO_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 18U)) & 0x01U)
-#define TCON_MISO_PIN                  PORT_PIN_PC18
+/*** Macros for TCON_CS pin ***/
+#define TCON_CS_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 18U))
+#define TCON_CS_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 18U))
+#define TCON_CS_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 18U))
+#define TCON_CS_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 18U))
+#define TCON_CS_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 18U))
+#define TCON_CS_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 18U)) & 0x01U)
+#define TCON_CS_PIN                  PORT_PIN_PC18
 
-/*** Macros for TCON_MOSI pin ***/
-#define TCON_MOSI_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 19U))
-#define TCON_MOSI_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 19U))
-#define TCON_MOSI_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 19U))
-#define TCON_MOSI_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 19U))
-#define TCON_MOSI_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 19U))
-#define TCON_MOSI_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 19U)) & 0x01U)
-#define TCON_MOSI_PIN                  PORT_PIN_PC19
+/*** Macros for TCON_MISO pin ***/
+#define TCON_MISO_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 19U))
+#define TCON_MISO_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 19U))
+#define TCON_MISO_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 19U))
+#define TCON_MISO_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 19U))
+#define TCON_MISO_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 19U))
+#define TCON_MISO_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 19U)) & 0x01U)
+#define TCON_MISO_PIN                  PORT_PIN_PC19
 
 /*** Macros for TP_GRB pin ***/
 #define TP_GRB_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 20U))

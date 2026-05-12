@@ -46,10 +46,10 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,D
 53,PA17,,Available,,,,,,NORMAL
 54,PA18,,Available,,,,,,NORMAL
 55,PA19,,Available,,,,,,NORMAL
-56,PC16,TCON_CS,GPIO,Digital,Out,Low,,,NORMAL
+56,PC16,TCON_MOSI,GPIO,Digital,Out,Low,,,NORMAL
 57,PC17,TCON_CLK,GPIO,Digital,Out,Low,,,NORMAL
-58,PC18,TCON_MISO,GPIO,Digital,In,n/a,No,No,NORMAL
-59,PC19,TCON_MOSI,GPIO,Digital,Out,Low,,,NORMAL
+58,PC18,TCON_CS,GPIO,Digital,Out,Low,,,NORMAL
+59,PC19,TCON_MISO,GPIO,Digital,In,n/a,No,No,NORMAL
 60,PC20,TP_GRB,GPIO,Digital,Out,Low,,,NORMAL
 61,PC21,,Available,,,,,,NORMAL
 64,PB16,SDA,SERCOM5_PAD0,Digital,High Impedance,n/a,No,No,NORMAL

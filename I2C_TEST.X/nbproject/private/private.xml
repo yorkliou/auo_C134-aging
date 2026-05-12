@@ -5,11 +5,12 @@
         <group>
             <file>file:/C:/Users/USER/Desktop/TEST/C134/src/main.c</file>
             <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/ProcessControl.c</file>
+            <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/I2C_relate.c</file>
+            <file>file:/C:/Users/USER/Desktop/TEST/C134/src/config/default/peripheral/systick/plib_systick.c</file>
+            <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/I2C_relate.h</file>
+            <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/Tcon_SPI.c</file>
             <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/ALS_I2C.c</file>
             <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/Uart.c</file>
-            <file>file:/C:/Users/USER/Desktop/TEST/C134/src/config/default/peripheral/systick/plib_systick.c</file>
-            <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/I2C_relate.c</file>
-            <file>file:/C:/Users/USER/Desktop/TEST/C134/I2C_TEST.X/src/I2C_relate.h</file>
         </group>
     </open-files>
 </project-private>

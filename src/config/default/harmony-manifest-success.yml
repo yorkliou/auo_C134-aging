@@ -4,13 +4,13 @@
 
 
 project: I2C_TEST
-creation_date: 2025-12-11T14:16:44.338+08:00[Asia/Taipei]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2026-05-06T14:50:28.362+08:00[Asia/Taipei]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.6.3
-mcc_core_version: v5.8.3
+mcc_version: v5.6.4
+mcc_core_version: v5.8.4
 mplabx_version: v6.25        # if MPLAB X plugin only
-harmony_version: v5.6.3
+harmony_version: v5.6.4
 compiler: XC32 4.60
 
 modules:

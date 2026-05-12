@@ -229,7 +229,7 @@ int main(void) {
     //---------------------------------------- Initial para
     Load_CurrentIndex();
     
-        
+    Generic_Read_TP_word_mode(0x200056A0,5);
 //    als_init();
 //    als_id_check();
 //    als_data_read();

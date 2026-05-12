@@ -867,7 +867,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x191b0a4a'
+            value: '0x19170a4a'
           type: Dynamic
         type: Values
       type: String
@@ -6233,7 +6233,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x2'
+            value: '0x0'
           type: Dynamic
         type: Values
       type: String
@@ -6318,7 +6318,7 @@ data:
       - children:
         - attributes:
             id: core
-            value: '0x0'
+            value: '0x2'
           type: Dynamic
         type: Values
       type: String
@@ -6359,7 +6359,7 @@ data:
       children:
       - children:
         - attributes:
-            value: TCON_MISO
+            value: TCON_CS
           type: User
         type: Values
       type: String
@@ -6369,7 +6369,7 @@ data:
       children:
       - children:
         - attributes:
-            value: TCON_MOSI
+            value: TCON_MISO
           type: User
         type: Values
       type: String
@@ -6419,7 +6419,7 @@ data:
       children:
       - children:
         - attributes:
-            value: TCON_CS
+            value: TCON_MOSI
           type: User
         type: Values
       type: String
@@ -6449,7 +6449,7 @@ data:
       children:
       - children:
         - attributes:
-            value: 'True'
+            value: ''
           type: User
         type: Values
       type: String
@@ -6459,7 +6459,7 @@ data:
       children:
       - children:
         - attributes:
-            value: ''
+            value: Out
           type: User
         type: Values
       type: String
@@ -6469,7 +6469,7 @@ data:
       children:
       - children:
         - attributes:
-            value: ''
+            value: 'True'
           type: User
         type: Values
       type: String
@@ -6479,7 +6479,7 @@ data:
       children:
       - children:
         - attributes:
-            value: Out
+            value: ''
           type: User
         type: Values
       type: String
